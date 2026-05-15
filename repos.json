@@ -1,26 +1,22 @@
 {
-    "version": "1.0.0",
-    "description": "A tool to setup and manage multiple Git repositories",
+    "version": "2.5.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.5.4/repos_2.5.4_windows_amd64.zip",
+            "bin": [
+                "repos.exe"
+            ],
+            "hash": "6f065fda427c90f953a3b8ff5949584fd52e79fa1688d5a630e739b8ebbd6b6f"
+        },
+        "arm64": {
+            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.5.4/repos_2.5.4_windows_arm64.zip",
+            "bin": [
+                "repos.exe"
+            ],
+            "hash": "1f1f821ce9c5ffc8148db0edd4a507aa03c1274f675af2c082bc56066f2b8183"
+        }
+    },
     "homepage": "https://github.com/MiguelRodo/repos",
     "license": "MIT",
-    "url": "https://github.com/MiguelRodo/repos/archive/refs/tags/v1.0.0.zip",
-    "hash": "REPLACE_WITH_ACTUAL_HASH",
-    "extract_dir": "repos-1.0.0",
-    "bin": "bin\\repos.ps1",
-    "depends": [
-        "git",
-        "jq"
-    ],
-    "checkver": {
-        "github": "https://github.com/MiguelRodo/repos"
-    },
-    "autoupdate": {
-        "url": "https://github.com/MiguelRodo/repos/archive/refs/tags/v$version.zip",
-        "extract_dir": "repos-$version"
-    },
-    "notes": [
-        "Run 'repos --help' to get started.",
-        "Make sure you have Git for Windows installed (provides bash, git, and curl).",
-        "Dependencies: git, jq (automatically installed via Scoop)"
-    ]
+    "description": "Cross-platform CLI for managing multiple related Git repositories as a unified workspace"
 }
