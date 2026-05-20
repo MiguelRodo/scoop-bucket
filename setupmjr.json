@@ -1,0 +1,22 @@
+{
+    "version": "0.0.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.0.2/setupmjr_0.0.2_windows_amd64.zip",
+            "bin": [
+                "setupmjr.exe"
+            ],
+            "hash": "513eaf1dc256d1df71509628ed5fe9e80e7aaa898ef47b83c4af03f3b4aa4c01"
+        },
+        "arm64": {
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.0.2/setupmjr_0.0.2_windows_arm64.zip",
+            "bin": [
+                "setupmjr.exe"
+            ],
+            "hash": "c2b23bb5d6cf074e15b536f224d8bf787feb990592859dd4baf76da7de30f23d"
+        }
+    },
+    "homepage": "https://github.com/MiguelRodo/setupmjr",
+    "license": "MIT",
+    "description": "Cross-platform setup utility"
+}
