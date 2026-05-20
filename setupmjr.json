@@ -1,22 +1,25 @@
 {
-    "version": "0.2.0",
+    "version": "0.4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.2.0/setupmjr_0.2.0_windows_amd64.zip",
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.0/setupmjr_0.4.0_windows_amd64.zip",
             "bin": [
                 "setupmjr.exe"
             ],
-            "hash": "15b27a7be8c95df57298f805236a6dffcea8ac96a5d5445a2bb8414dba0edcdf"
+            "hash": "5c74aea1e6f2773a21ac0a445c4fefd7b0c2407effb894df1e32d1541227cb09"
         },
         "arm64": {
-            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.2.0/setupmjr_0.2.0_windows_arm64.zip",
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.0/setupmjr_0.4.0_windows_arm64.zip",
             "bin": [
                 "setupmjr.exe"
             ],
-            "hash": "f3af06946793ffce6aad25fd8981a76fbd38810b6773c49e70f206b32ec893ba"
+            "hash": "8762debaac67dc736a86ff46cf476c1db38716febc04129068bceb5bcc5a1ea8"
         }
     },
     "homepage": "https://github.com/MiguelRodo/setupmjr",
     "license": "MIT",
-    "description": "Cross-platform setup utility"
+    "description": "Cross-platform setup utility",
+    "depends": [
+        "repos"
+    ]
 }
