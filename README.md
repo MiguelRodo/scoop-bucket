@@ -5,6 +5,7 @@ This repository is a [Scoop](https://scoop.sh/) bucket for installing my persona
 ## Included Packages
 
 * **repos** - A CLI tool to manage, clone, and setup git repositories.
+* **setupmjr** - Cross-platform setup utility.
 
 ## Installation
 
@@ -29,7 +30,7 @@ scoop bucket add miguelrodo [https://github.com/MiguelRodo/scoop-bucket](https:/
 You can now install the tools directly:
 
 ```powershell
-scoop install repos
+scoop install repos setupmjr
 ```
 
 ## Updating
@@ -37,11 +38,11 @@ scoop install repos
 To get the latest versions of the tools, simply run:
 
 ```powershell
-scoop update repos
+scoop update repos setupmjr
 ```
 
 ## Issues & Contributing
 
 If you encounter issues with the installation, please open an issue in this repository.
-For issues with the specific tools (like `repos`), please open an issue in the [repos](https://github.com/MiguelRodo/repos).
+For issues with the specific tools (like `repos` or `setupmjr`), please open an issue in the [repos](https://github.com/MiguelRodo/repos) or [setupmjr](https://github.com/MiguelRodo/setupmjr) repositories respectively.
 
