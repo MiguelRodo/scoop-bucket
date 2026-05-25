@@ -1,19 +1,19 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.0/setupmjr_0.4.0_windows_amd64.zip",
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.1/setupmjr_0.4.1_windows_amd64.zip",
             "bin": [
                 "setupmjr.exe"
             ],
-            "hash": "5c74aea1e6f2773a21ac0a445c4fefd7b0c2407effb894df1e32d1541227cb09"
+            "hash": "6b3a021f1e3b9bab5b642bd0571e6a68c34d79be884f35367548b98341df5d16"
         },
         "arm64": {
-            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.0/setupmjr_0.4.0_windows_arm64.zip",
+            "url": "https://github.com/MiguelRodo/setupmjr/releases/download/v0.4.1/setupmjr_0.4.1_windows_arm64.zip",
             "bin": [
                 "setupmjr.exe"
             ],
-            "hash": "8762debaac67dc736a86ff46cf476c1db38716febc04129068bceb5bcc5a1ea8"
+            "hash": "19a2a0963a619daa9416fc044b546ba473d414ebcf7052c479b2687b7af111d6"
         }
     },
     "homepage": "https://github.com/MiguelRodo/setupmjr",
