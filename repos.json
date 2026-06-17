@@ -1,19 +1,19 @@
 {
-    "version": "2.7.0",
+    "version": "2.7.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.7.0/repos_2.7.0_windows_amd64.zip",
+            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.7.1/repos_2.7.1_windows_amd64.zip",
             "bin": [
                 "repos.exe"
             ],
-            "hash": "0a6f4e08d3762cc1a6984c1ecb13a9c2b308e1bd79805d94c63e961a31e02c50"
+            "hash": "2731819b3ae54da4e68b8c1ac9d69262d863441a73f058b6f3aa9a778bcde329"
         },
         "arm64": {
-            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.7.0/repos_2.7.0_windows_arm64.zip",
+            "url": "https://github.com/MiguelRodo/repos/releases/download/v2.7.1/repos_2.7.1_windows_arm64.zip",
             "bin": [
                 "repos.exe"
             ],
-            "hash": "0b5c6506cf441cf70bc223c75773fb7a8bcd1f5d4a4a3cbf18acca88515e727f"
+            "hash": "6d8ad0f9cfa5cf40f33d625241df171ac339fc9e160080778ca37c891d76ffae"
         }
     },
     "homepage": "https://github.com/MiguelRodo/repos",
